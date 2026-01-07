@@ -4,38 +4,97 @@ import { Github, Linkedin, Globe } from "lucide-react";
 import assessmentImg from "./images/certificate.jpeg";
 import cert1 from "./images/cert1.png";
 import cert2 from "./images/cert2.png";
-
 const cert1Pdf = "/cert1.pdf";
 const cert2Pdf = "/cert2.pdf";
-
 const user = {
   name: "Paul Akporarhe",
   title:
     "B2B and B2C Sales • Growth Ops • Data Projects • Customer Success & Client Relations",
   location: "Abuja, Nigeria",
-  email: "akporarhe@gmail.com",
+  email: "<akporarhe@gmail.com>",
   phone: "+2348106519628",
-  github: "https://github.com/lashakp",
-  linkedin: "https://www.linkedin.com/in/paul-akporarhe/",
-  huggingface: "https://huggingface.co/lashakp",
+  github: "<https://github.com/lashakp>",
+  linkedin: "<https://www.linkedin.com/in/paul-akporarhe/>",
+  huggingface: "<https://huggingface.co/lashakp>",
   tagline: `I combine B2B and B2C sales, customer success & client relations expertise with data-driven projects — from web scraping and structured querying to ML-powered prediction tools and data preprocessing (pandas). I am also a passionate developer skilled in React, Node.js, Python, and data analysis.`,
   about:
     "With a background in sales, customer success & client relations, field operations, and growth enablement, I’ve helped companies scale outreach, manage client pipelines, and optimize performance. On the technical side, I build scrapers, TTS demos, structured querying analytics, and machine learning models (like my Car Insurance Claim Prediction hosted on Hugging Face). My focus is blending business impact with technical execution.",
-  skills: [
-    "B2B & B2C Sales Strategy",
-    "Customer Success & Client Relations",
-    "Lead generation & outreach",
-    "Growth operations & CRM workflows",
-    "Web scraping (Python, BeautifulSoup, Selenium)",
+  // =========================
+  // SKILLS (SPLIT CLEANLY)
+  // =========================
+  technicalSkills: [
+    "Advanced Excel (Dashboards, PivotTables, KPIs, Forecasting, VBA Automation)",
+    "Data Analysis & Business Intelligence",
+    "Inventory, Sales & Operational Analytics",
+    "Web Scraping (Python, BeautifulSoup, Selenium)",
     "Machine Learning (Scikit-learn, Gradio, Hugging Face)",
-    "Text-to-Speech prototypes (Streamlit, ElevenLabs APIs)",
-    "Structured querying (SQL, Pandas)",
+    "Text-to-Speech Prototypes (Streamlit, ElevenLabs APIs)",
+    "Structured Querying (SQL, Pandas)",
+  ],
+  businessSkills: [
+    "B2B & B2C Sales Strategy",
+    "Customer Success, Support & Client Relations",
+    "Lead Generation & Outreach",
+    "Growth Operations & CRM Workflows",
+    "Customer Experience Optimization",
+    "Service Level & Performance Tracking",
+    "Troubleshooting & Escalation Management",
+    "Feedback Analysis & Process Improvement",
+    "Cross-team Collaboration (Sales, Ops, Tech)"
+  ],
+  // ==========================================================
+  // PROJECT → SKILLS MAPPING (NEW SECTION, RECRUITER-ORIENTED)
+  // ==========================================================
+  projectSkillsMap: [
+    {
+      project: "Excel Sales & Inventory Dashboard",
+      skills: [
+        "Advanced Excel",
+        "KPI Design",
+        "PivotTables",
+        "Inventory Analytics",
+        "Forecasting",
+        "VBA Automation",
+        "Business Reporting",
+      ],
+    },
+    {
+      project: "Excel VBA Employee Management System",
+      skills: [
+        "Excel VBA",
+        "Form Design",
+        "CRUD Operations",
+        "Data Validation",
+        "Secure Data Management",
+        "Automation",
+      ],
+    },
+    {
+      project: "Car Insurance Claim Prediction",
+      skills: [
+        "Machine Learning",
+        "EDA",
+        "Feature Engineering",
+        "Model Evaluation",
+        "Gradio Deployment",
+      ],
+    },
+    {
+      project: "Africa Companies Scraper",
+      skills: [
+        "Python",
+        "BeautifulSoup",
+        "Pandas",
+        "Web Scraping",
+        "Data Extraction",
+      ],
+    },
   ],
   experience: [
     {
       company: "Omeife Technology",
       role: "Data Scientist, TTS & Web Scraping Engineer",
-      dates: "Feb 2024 — Oct 2025",
+      dates: "Jan 2024 — Nov 2025",
       bullets: [
         "Built TTS pipelines and voice demos for product prototypes.",
         "Developed data science models to enhance product features and insights.",
@@ -55,7 +114,7 @@ const user = {
       ],
     },
     {
-      company: "Airtel Nigeria / 3Dim Marketing Ltd",
+      company: "Airtel Nigeria",
       role: "Territory Sales Manager",
       dates: "Feb 2020 – May 2023",
       bullets: [
@@ -96,39 +155,54 @@ const user = {
         "Pandas",
         "Logging",
       ],
-      link: "#projects",
+      link: "https://huggingface.co/spaces/lashakp/insurance-claim-dashboard",
     },
+    {
+      title: "Excel Sales & Inventory Dashboard",
+      description:
+        "A professional end-to-end Excel analytics solution simulating real-world sales and inventory operations. Features include data cleaning, PivotTable aggregation, KPI design, interactive dashboards with slicers, low-stock monitoring, sales forecasting with confidence bands, and VBA automation for refreshes and alerts. Designed to be portfolio-ready for GitHub, LinkedIn, and technical interviews.",
+      tags: ["Excel", "Dashboard", "VBA", "Data Analysis", "PivotTables", "KPI", "Forecasting", "Automation", "Inventory Management"],
+      link: "https://github.com/lashakp/Excel-Sales-Inventory-Dashboard-Project",
+    },
+    {
+  title: "Excel VBA Employee Management System",
+      description:
+        "A fully automated Excel-based Employee Data Entry Form integrated with a secure database. Features interactive data entry, dropdown validation for Gender and Department, automated CRUD operations (Save, Modify, Delete, Reset), username and timestamp tracking, protected sheets, and robust error handling to ensure accurate and secure employee data management.",
+      tags: ["Excel", "VBA", "Data Entry", "Forms", "CRUD", "Automation", "Validation"],
+      link: "https://github.com/lashakp/Excel-VBA-Employee-Form",
+    },
+
     {
       title: "Employee Data Cleaning and Transformation (SQL)",
       description:
         "Built a SQL pipeline to clean and standardize messy HR employee records, including trimming names, validating emails, normalizing phone numbers, converting messy salary and hire date formats, and flagging/archiving invalid data. Delivered a cleaned dataset ready for reporting and analytics.",
       tags: ["SQL", "Data Cleaning", "ETL", "Database"],
-      link: "#projects",
+      link: "https://github.com/lashakp/employees_cleaning_SQL/blob/main/clean_data.sql",
     },
     {
       title: "Pidgin TTS Demo App",
       description:
         "Streamlit prototype that converts conversational text into natural-sounding speech using TTS APIs — tested with local dialects.",
       tags: ["Streamlit", "TTS", "APIs"],
-      link: "#projects",
+      link: "https://github.com/lashakp/elevenlabs-tts-nigerian-pidgin",
     },
     {
-      title: "Nigerian Government Scraper",
+      title: "Africa Companies Scraper",
       description:
-        "A resilient scraper that extracts open data from government portals, normalizes records, and outputs clean CSVs ready for CRM imports.",
-      tags: ["Python", "BeautifulSoup", "Data pipelines"],
-      link: "#projects",
+        "A Python-based web scraping project that extracts structured data from the Wikipedia page listing the largest companies in Africa by revenue. The scraper parses HTML tables using BeautifulSoup, cleans and organizes the data with Pandas, and exports it as a CSV file for further analysis or downstream use.",
+      tags: ["Python", "BeautifulSoup", "Pandas", "Web Scraping", "Data Extraction"],
+      link: "https://github.com/lashakp/top-100-companies-africa/blob/main/africa_companies.csv",
     },
+
     {
       title: "Breast Cancer Prediction Model",
       description:
         "An ML model to predict breast cancer recurrence. Includes EDA, feature ranking, and an interactive Gradio app deployed on Hugging Face Spaces.",
       tags: ["Machine Learning", "Gradio", "Hugging Face"],
-      link: "https://huggingface.co/spaces/lashakp/breast-cancer-recurrence-prediction",
+      link: "<https://huggingface.co/spaces/lashakp/breast-cancer-recurrence-prediction>",
     },
   ],
 };
-
 // Small presentational components
 function IconLink({ href, children, Icon }) {
   return (
@@ -142,7 +216,6 @@ function IconLink({ href, children, Icon }) {
     </a>
   );
 }
-
 function Section({ title, children, id }) {
   return (
     <section id={id} className="bg-white p-6 rounded-2xl shadow-sm">
@@ -151,7 +224,6 @@ function Section({ title, children, id }) {
     </section>
   );
 }
-
 function ProjectCard({ p }) {
   const isHash = p.link && p.link.startsWith("#");
   return (
@@ -189,7 +261,6 @@ function ProjectCard({ p }) {
     </article>
   );
 }
-
 function ExperienceItem({ exp }) {
   return (
     <div className="border-b pb-4">
@@ -205,7 +276,6 @@ function ExperienceItem({ exp }) {
     </div>
   );
 }
-
 export default function App() {
   return (
     <div className="bg-gray-50 min-h-screen">
@@ -220,7 +290,6 @@ export default function App() {
             />
             <h1 className="text-3xl sm:text-4xl font-bold mb-2">{user.name}</h1>
             <p className="text-lg text-slate-700 mb-6">{user.title}</p>
-
             <motion.h2
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
@@ -229,10 +298,8 @@ export default function App() {
             >
               {user.tagline}
             </motion.h2>
-
             <p className="mt-4 text-slate-600 max-w-2xl mx-auto">{user.about}</p>
           </div>
-
           <div className="flex flex-col gap-3 mt-6 sm:mt-0 sm:ml-6">
             <IconLink href={user.linkedin} Icon={Linkedin}>
               LinkedIn
@@ -245,7 +312,6 @@ export default function App() {
             </IconLink>
           </div>
         </header>
-
         {/* Project Preview */}
         <section className="bg-gradient-to-br from-slate-100 to-white p-6 rounded-xl">
           <div className="rounded-lg border border-slate-200 overflow-hidden shadow-sm">
@@ -255,7 +321,7 @@ export default function App() {
               className="w-full object-cover"
             />
             <a
-              href="https://huggingface.co/spaces/lashakp/car-insurance-claim-prediction"
+              href="<https://huggingface.co/spaces/lashakp/car-insurance-claim-prediction>"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-center px-4 py-2 bg-blue-600 text-white font-medium hover:bg-blue-700"
@@ -267,18 +333,59 @@ export default function App() {
             🔮 Try my interactive ML model predicting car insurance claim outcomes.
           </div>
         </section>
-
         {/* Skills */}
         <Section title="Skills">
-          <div className="flex flex-wrap gap-2">
-            {user.skills.map((skill) => (
-              <span key={skill} className="text-sm px-3 py-1 bg-slate-100 rounded-full">
-                {skill}
-              </span>
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Technical Skills */}
+            <div>
+              <h4 className="font-semibold mb-3">Technical Skills</h4>
+              <div className="flex flex-wrap gap-2">
+                {user.technicalSkills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="text-sm px-3 py-1 bg-slate-100 rounded-full"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+            {/* Business / Customer Skills */}
+            <div>
+              <h4 className="font-semibold mb-3">Business & Customer Skills</h4>
+              <div className="flex flex-wrap gap-2">
+                {user.businessSkills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="text-sm px-3 py-1 bg-slate-100 rounded-full"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </Section>
+        {/* Project Skills Mapping (NEW SECTION) */}
+        <Section title="How My Skills Map to Projects">
+          <div className="grid gap-4">
+            {user.projectSkillsMap.map((item) => (
+              <div key={item.project} className="bg-white p-4 rounded-xl shadow-sm">
+                <h4 className="font-semibold mb-2">{item.project}</h4>
+                <div className="flex flex-wrap gap-2">
+                  {item.skills.map((s) => (
+                    <span
+                      key={s}
+                      className="text-xs px-2 py-1 bg-slate-100 rounded"
+                    >
+                      {s}
+                    </span>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
         </Section>
-
         {/* Experience */}
         <Section id="experience" title="Experience">
           <div className="grid gap-6">
@@ -287,7 +394,6 @@ export default function App() {
             ))}
           </div>
         </Section>
-
         {/* Selected Projects (moved up so it doesn't render last) */}
         <section id="projects" className="grid gap-6">
           <h3 className="text-xl font-semibold">Selected Projects</h3>
@@ -297,7 +403,6 @@ export default function App() {
             ))}
           </div>
         </section>
-
         {/* Certifications */}
         <section className="p-6 bg-gray-50 rounded-xl shadow-sm">
           <h2 className="text-2xl font-bold mb-4">Certifications</h2>
@@ -328,7 +433,6 @@ export default function App() {
                   View Full Certificate (PDF)
                 </a>
               </div>
-
               <div className="mb-6">
                 <a href={cert1Pdf} target="_blank" rel="noopener noreferrer" title="Open cert1 PDF">
                   <img
@@ -356,7 +460,6 @@ export default function App() {
                   </a>
                 </div>
               </div>
-
               <div>
                 <a href={cert2Pdf} target="_blank" rel="noopener noreferrer" title="Open cert2 PDF">
                   <img
@@ -387,7 +490,6 @@ export default function App() {
             </div>
           </div>
         </section>
-
         {/* Letter of Recommendation */}
         <Section title="Letter of Recommendation">
           <div className="border border-slate-200 rounded-lg p-6 bg-slate-50">
@@ -395,7 +497,6 @@ export default function App() {
               <p className="text-sm text-slate-600 italic">From Omeife Technologies, Uniccon Group of Companies</p>
               <p className="text-sm text-slate-600 italic">Date: 1st August 2025</p>
             </div>
-
             <div className="mb-4">
               <a href="/Letter_of_Recommendation_Paul.pdf" target="_blank" rel="noopener noreferrer">
                 <iframe
@@ -405,7 +506,6 @@ export default function App() {
                 />
               </a>
             </div>
-
             <a
               href="/Letter_of_Recommendation_Paul.pdf"
               target="_blank"
@@ -416,7 +516,6 @@ export default function App() {
             </a>
           </div>
         </Section>
-
         {/* Resume */}
         <Section title="Resume">
           <div className="border border-slate-200 rounded-lg p-6 bg-slate-50">
@@ -433,7 +532,6 @@ export default function App() {
             </a>
           </div>
         </Section>
-
         {/* Contact */}
         <Section id="contact" title="Get in touch">
           <p className="mt-2 text-sm text-slate-600">
@@ -449,7 +547,6 @@ export default function App() {
             </a>
           </p>
         </Section>
-
         {/* Footer */}
         <footer className="text-center py-8 text-slate-500">
           <div>
