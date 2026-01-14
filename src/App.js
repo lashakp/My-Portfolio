@@ -92,9 +92,9 @@ const user = {
   ],
   experience: [
     {
-      company: "Omeife Technology",
-      role: "Data Scientist, TTS & Web Scraping Engineer",
-      dates: "Jan 2024 — Nov 2025",
+      company: "Uniccon group of companies — Omeife Technology",
+      role: "Intern Data Scientist, TTS & Web Scraping Engineer",
+      dates: "Nov 2024 — Nov 2025",
       bullets: [
         "Built TTS pipelines and voice demos for product prototypes.",
         "Developed data science models to enhance product features and insights.",
