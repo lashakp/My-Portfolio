@@ -68,7 +68,7 @@ const user = {
         "Secure Data Management",
         "Automation",
       ],
-    },
+      },
     {
       project: "Car Insurance Claim Prediction",
       skills: [
@@ -77,6 +77,20 @@ const user = {
         "Feature Engineering",
         "Model Evaluation",
         "Gradio Deployment",
+      ],
+    },
+    {
+      project: "Car Insurance Claims Data Analysis & Interactive Dashboard",
+      skills: [
+        "HTML",
+        "Python",
+        "EDA",
+        "Dash",
+        "Plotly",
+        "Matplotlib",
+        "Data Visualization",
+        "Pandas",
+        "Logging",
       ],
     },
     {
