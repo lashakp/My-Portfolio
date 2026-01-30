@@ -42,9 +42,9 @@ const user = {
     "Feedback Analysis & Process Improvement",
     "Cross-team Collaboration (Sales, Ops, Tech)"
   ],
-  // ==========================================================
-  // PROJECT → SKILLS MAPPING (NEW SECTION, RECRUITER-ORIENTED)
-  // ==========================================================
+  // =======================
+  // PROJECT → SKILLS MAPPING 
+  // =======================
   projectSkillsMap: [
     {
       project: "Excel Sales & Inventory Dashboard",
