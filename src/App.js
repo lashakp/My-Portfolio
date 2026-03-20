@@ -13,9 +13,9 @@ const user = {
   location: "Abuja, Nigeria",
   email: "<akporarhe@gmail.com>",
   phone: "+2348106519628",
-  github: "<https://github.com/lashakp>",
-  linkedin: "<https://www.linkedin.com/in/paul-akporarhe/>",
-  huggingface: "<https://huggingface.co/lashakp>",
+  github: "https://github.com/lashakp",
+  linkedin: "https://www.linkedin.com/in/paul-akporarhe/",
+  huggingface: "https://huggingface.co/lashakp",
   tagline: `I combine B2B and B2C sales, customer success & client relations expertise with data-driven projects — from web scraping and structured querying to ML-powered prediction tools and data preprocessing (pandas). I am also a passionate developer skilled in React, Node.js, Python, and data analysis.`,
   about:
     "With a background in sales, customer success & client relations, field operations, and growth enablement, I’ve helped companies scale outreach, manage client pipelines, and optimize performance. On the technical side, I build scrapers, TTS demos, structured querying analytics, and machine learning models (like my Car Insurance Claim Prediction hosted on Hugging Face). My focus is blending business impact with technical execution.",
