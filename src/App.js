@@ -19,11 +19,11 @@ const user = {
   tagline: `I bridge sales leadership, client success, and B2B/B2C operations with data-driven engineering — building scalable solutions ranging from web scraping and analytics dashboards to machine learning systems and production-ready backend APIs. Focused on delivering practical, high-impact technology using Python, React, Node.js, and modern data tools.`,
   about: `I operate at the intersection of business execution and technical delivery. With a foundation in sales, customer success, and field operations, I’ve helped organizations strengthen client relationships, improve pipeline performance, and drive consistent operational results.
 
-Alongside my commercial experience, I design and deploy data and software solutions that solve real workflow problems. My work includes building web scraping systems, analytics pipelines, text-to-speech prototypes, and machine learning applications — including production-ready tools like my Developer Resource Intelligence API and predictive modeling projects deployed on Render and Hugging Face respectively.
+    Alongside my commercial experience, I design and deploy data and software solutions that solve real workflow problems. My work includes building web scraping systems, analytics pipelines, text-to-speech prototypes, and machine learning applications — including production-ready tools like my Developer Resource Intelligence API and predictive modeling projects deployed on Render and Hugging Face respectively.
 
-My approach is pragmatic and results-oriented: identify the operational need, build reliable systems, and deliver solutions that improve efficiency, decision-making, and scalability.
+    My approach is pragmatic and results-oriented. I identify the operational need, build reliable systems, and deliver solutions that improve efficiency, decision-making, and scalability.
 
-Open to partnerships, freelance builds, or full-time roles where business outcomes meet code. Let's build something that scales impact.`,
+    Open to partnerships, freelance builds, or full-time roles where business outcomes meet code. Let's build something that scales impact.`,
   // =========================
   // SKILLS (SPLIT CLEANLY)
   // =========================
