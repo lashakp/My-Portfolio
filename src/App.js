@@ -16,9 +16,9 @@ const user = {
   github: "https://github.com/lashakp",
   linkedin: "https://www.linkedin.com/in/paul-akporarhe/",
   huggingface: "https://huggingface.co/lashakp",
-  tagline: `I combine B2B and B2C sales, customer success & client relations expertise with data-driven projects — from web scraping and structured querying to ML-powered prediction tools and data preprocessing (pandas). I am also a passionate developer skilled in React, Node.js, Python, and data analysis`,
+  tagline: `I merge sales leadership, client success, and B2B/B2C operations expertise with data-driven development — from web scraping, structured querying, and dashboards to ML-powered prediction tools and backend APIs. Passionate about building impactful, scalable solutions using Python, React, Node.js, and analytics.`,
   about:
-    "With a background in sales, customer success & client relations, field operations, and growth enablement, I’ve helped companies scale outreach, manage client pipelines, and optimize performance. On the technical side, I build scrapers, TTS demos, structured querying analytics, and machine learning models (like my Car Insurance Claim Prediction hosted on Hugging Face). My focus is blending business impact with technical execution.",
+    "I bring together experience in sales, customer success, field operations, and growth enablement with hands-on technical skills in data and software development. I’ve helped businesses optimize client pipelines, scale outreach, and improve operational performance. On the technical side, I build web scrapers, TTS demos, structured analytics workflows, and machine learning models, such as my Developer Resource Intelligence API and Car Insurance Claim Prediction hosted on Render and on Hugging Face respectively. My focus is on creating solutions that deliver measurable business impact while leveraging modern technical tools.",
   // =========================
   // SKILLS (SPLIT CLEANLY)
   // =========================
@@ -131,8 +131,8 @@ const user = {
   ],
   experience: [
     {
-      company: "Uniccon group of companies — Omeife Technology",
-      role: "Intern Data Scientist, TTS & Web Scraping Engineer",
+      company: "Uniccon Institute of Technology",
+      role: "Intern Data Scientist, TTS & Web Scraping Engineer, digital solutions",
       dates: "Sep 2024 — Aug 2025",
       bullets: [
         "Built TTS pipelines and voice demos for product prototypes.",
