@@ -177,7 +177,7 @@ const user = {
   projects: [
     {
       title: "Developer Resource Intelligence API",
-      description: "Developed a production-ready, explainable backend API to recommend curated developer learning resources. Work included designing a deterministic ranking system, integrating an optional ML-based ranking model with safe fallback, building RESTful endpoints with FastAPI, creating a Dockerized deployment for reproducibility, implementing pagination and filtering, and providing an interactive Swagger UI for live API exploration. Delivered a fully versioned, testable, and portable service, accessible in demo mode without credentials or full mode with authenticated API key access.",
+      description: "Developed a production-ready, explainable backend API to recommend curated developer learning resources. Work included designing a deterministic ranking system, integrating an optional ML-based ranking model with safe fallback, building RESTful endpoints with FastAPI, creating a Dockerized deployment for reproducibility, implementing pagination and filtering, and providing an interactive Swagger UI for live API exploration. Delivered a fully versioned, testable, and portable service, accessible in demo mode without credentials or full mode with authenticated API key access. Note: This service is deployed on Render's free-tier infrastructure. The API may take a few seconds to wake up after periods of inactivity.",
       tags: [
         "Python",
         "FastAPI",
