@@ -30,6 +30,16 @@ const user = {
     "Machine Learning (Scikit-learn, Gradio, Hugging Face)",
     "Text-to-Speech Prototypes (Streamlit, ElevenLabs APIs)",
     "Structured Querying (SQL, Pandas)",
+    "FastAPI (REST API Development)",
+    "Docker & Containerization",
+    "API Design & Versioning",
+    "ML Integration with Safe Fallbacks",
+    "Swagger / OpenAPI Documentation",
+    "SQLite / Data Modeling",
+    "Explainable Recommendation Systems",
+    "Backend Deployment on Render",
+    "Pagination & Filtering in APIs",
+    "Testable & Modular Service Architecture"
   ],
   businessSkills: [
     "B2B & B2C Sales Strategy",
@@ -46,6 +56,21 @@ const user = {
   // PROJECT → SKILLS MAPPING (NEW SECTION)
   // ==========================================================
   projectSkillsMap: [
+    {
+      project: "Developer Resource Intelligence API",
+      skills: [
+        "FastAPI (REST API Development)",
+        "API Design & Versioning",
+        "Docker & Containerization",
+        "Backend Deployment on Render",
+        "SQLite / Data Modeling",
+        "Machine Learning Integration",
+        "Explainable Recommendation Systems",
+        "Swagger / OpenAPI Documentation",
+        "Pagination & Filtering",
+        "Testable & Modular Service Architecture"
+      ],
+    },
     {
       project: "Excel Sales & Inventory Dashboard",
       skills: [
@@ -68,7 +93,7 @@ const user = {
         "Secure Data Management",
         "Automation",
       ],
-      },
+    },
     {
       project: "Car Insurance Claim Prediction",
       skills: [
@@ -108,7 +133,7 @@ const user = {
     {
       company: "Uniccon group of companies — Omeife Technology",
       role: "Intern Data Scientist, TTS & Web Scraping Engineer",
-      dates: "Nov 2024 — Nov 2025",
+      dates: "Sep 2024 — Aug 2025",
       bullets: [
         "Built TTS pipelines and voice demos for product prototypes.",
         "Developed data science models to enhance product features and insights.",
@@ -119,7 +144,7 @@ const user = {
     {
       company: "Upskill Universe — Remote, Freelance",
       role: "One-on-One Business Mentor",
-      dates: "June 2021 – Present",
+      dates: "June 2022 – Dec 2025",
       bullets: [
         "Delivered tailored mentorship to entrepreneurs and small businesses.",
         "Implemented digital marketing strategies improving visibility by 60%.",
@@ -130,15 +155,41 @@ const user = {
     {
       company: "Airtel Nigeria",
       role: "Territory Sales Manager",
-      dates: "Feb 2020 – May 2023",
+      dates: "Feb 2021 – May 2023",
       bullets: [
         "Oversaw B2B/B2C sales operations and managed corporate client accounts.",
         "Drove outreach through cold calling, lead generation, and direct marketing.",
         "Reported insights on client behavior, competitor trends, and opportunities.",
       ],
     },
+    {
+      company: "Guinness Nigeria Plc",
+      role: "Sales Representative",
+      dates: "Jan 2016 – Nov 2018",
+      bullets: [
+        "Managed daily customer and distributor interactions to support product distribution and sales performance.",
+        "Maintained strong relationships with retail outlets and distribution partners.",
+        "Tracked sales activity and ensured consistent product visibility within assigned territory.",
+        "Delivered reliable service while managing multiple customer engagements.",
+      ],
+    }
   ],
   projects: [
+    {
+      title: "Developer Resource Intelligence API",
+      description: "Developed a production-ready, explainable backend API to recommend curated developer learning resources. Work included designing a deterministic ranking system, integrating an optional ML-based ranking model with safe fallback, building RESTful endpoints with FastAPI, creating a Dockerized deployment for reproducibility, implementing pagination and filtering, and providing an interactive Swagger UI for live API exploration. Delivered a fully versioned, testable, and portable service, accessible in demo mode without credentials or full mode with authenticated API key access.",
+      tags: [
+        "Python",
+        "FastAPI",
+        "REST API",
+        "Docker",
+        "Machine Learning",
+        "API Design",
+        "Backend",
+        "Explainable AI"
+      ],
+      link: "https://developer-resource-intelligence-api.onrender.com/docs"
+    },
     {
       title: "Car Insurance Claim Prediction (Machine Learning)",
       description:
