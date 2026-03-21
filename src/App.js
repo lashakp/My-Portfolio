@@ -16,9 +16,14 @@ const user = {
   github: "https://github.com/lashakp",
   linkedin: "https://www.linkedin.com/in/paul-akporarhe/",
   huggingface: "https://huggingface.co/lashakp",
-  tagline: `I merge sales leadership, client success, and B2B/B2C operations expertise with data-driven development — from web scraping, structured querying, and dashboards to ML-powered prediction tools and backend APIs. Passionate about building impactful, scalable solutions using Python, React, Node.js, and analytics.`,
-  about:
-    "I fuse frontline sales leadership, client success, and operational scaling with full-stack data & ML engineering to create tools that directly move revenue metrics. From optimizing pipelines and outreach cadences in high-growth B2B/B2C environments to building production-grade technical solutions, I solve the exact problems most teams face: too much manual work, poor visibility, and predictions that don't scale. Key strengths I bring: Sales & Operations DNA — Led client pipelines, field ops, growth enablement; consistently improved conversion rates, reduced churn, and scaled outreach programs. Technical Execution — Proficient in Python (scraping, ETL, automation), React + Node.js (modern UIs/APIs), structured querying, real-time dashboards, and ML workflows. Proven Impactful Builds: Developer Resource Intelligence API — live on Render, delivering real-time structured insights for talent & tech decisions. Car Insurance Claim Prediction Model — deployed on Hugging Face, showcasing production ML for risk & pricing use cases. Custom web scrapers, TTS prototypes, analytics pipelines — turning raw web data into actionable business intelligence. I’m passionate about products that blend commercial intuition with engineering rigor: faster decisions, automated intelligence, predictable growth. Open to collaborations on revenue-tech, AI-for-sales, data products, or RevOps transformation. If you're building/scaling something where business outcomes meet code — let's connect.",
+  tagline: `I bridge sales leadership, client success, and B2B/B2C operations with data-driven engineering — building scalable solutions ranging from web scraping and analytics dashboards to machine learning systems and production-ready backend APIs. Focused on delivering practical, high-impact technology using Python, React, Node.js, and modern data tools.`,
+  about: `I operate at the intersection of business execution and technical delivery. With a foundation in sales, customer success, and field operations, I’ve helped organizations strengthen client relationships, improve pipeline performance, and drive consistent operational results.
+
+Alongside my commercial experience, I design and deploy data and software solutions that solve real workflow problems. My work includes building web scraping systems, analytics pipelines, text-to-speech prototypes, and machine learning applications — including production-ready tools like my Developer Resource Intelligence API and predictive modeling projects deployed on Render and Hugging Face respectively.
+
+My approach is pragmatic and results-oriented: identify the operational need, build reliable systems, and deliver solutions that improve efficiency, decision-making, and scalability.
+
+Open to partnerships, freelance builds, or full-time roles where business outcomes meet code. Let's build something that scales impact.`,
   // =========================
   // SKILLS (SPLIT CLEANLY)
   // =========================
